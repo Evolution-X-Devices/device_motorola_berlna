@@ -22,7 +22,7 @@ from extract_utils.main import (
 )
 
 namespace_imports = [
-    'vendor/motorola/sm7325-common',
+    'vendor/motorola/sm8350-common',
     'hardware/motorola',
     'hardware/qcom-caf/common/libqti-perfd-client',
     'hardware/qcom-caf/sm8350',
@@ -68,6 +68,6 @@ module = ExtractUtilsModule(
 
 if __name__ == '__main__':
     utils = ExtractUtils.device_with_common(
-        module, 'sm7325-common', module.vendor
+        module, 'sm8350-common', module.vendor
     )
     utils.run()
