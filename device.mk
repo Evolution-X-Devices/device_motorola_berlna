@@ -49,7 +49,6 @@ PRODUCT_PACKAGES += \
     init.ets.rc \
     init.mmi.overlay.rc \
     init.recovery.berlna.rc \
-    init.vendor.st21nfc.rc \
     init.oem.fingerprint2.sh \
     load_touch.sh.recovery
 

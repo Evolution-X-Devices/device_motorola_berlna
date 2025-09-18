@@ -2,13 +2,13 @@
 // SPDX-FileCopyrightText: The LineageOS Project
 // SPDX-License-Identifier: Apache-2.0
 //
+
 prebuilt_etc {
     name: "android.hardware.biometrics.fingerprint@2.1-service-ets2.rc",
     src: "android.hardware.biometrics.fingerprint@2.1-service-ets2.rc",
     sub_dir: "init",
     vendor: true,
 }
-
 
 prebuilt_etc {
     name: "init.ets.rc",
@@ -29,13 +29,6 @@ prebuilt_etc {
     src: "init.recovery.berlna.rc",
     sub_dir: "init",
     recovery: true,
-}
-
-prebuilt_etc {
-    name: "init.vendor.st21nfc.rc",
-    src: "init.vendor.st21nfc.rc",
-    sub_dir: "init/hw",
-    vendor: true,
 }
 
 sh_binary {
