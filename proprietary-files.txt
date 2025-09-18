@@ -213,6 +213,7 @@ vendor/lib64/com.qti.feature2.swmf.so
 
 # Camera - ICP
 vendor/firmware/CAMERA_ICP_170.elf
+vendor/firmware/CAMERA_ICP.elf
 
 # Camera - Motorola
 vendor/bin/hw/motorola.hardware.camera.desktop@2.0-service
